@@ -1,0 +1,448 @@
+[
+    {
+    "prompt": "Write a detailed report about the effects of technology on society.",
+    "tokens": [
+      { "text": "Write", "pos": "VERB", "ambiguous": false },
+      { "text": "a", "pos": "DET", "ambiguous": false },
+      { "text": "detailed", "pos": "ADJ", "ambiguous": false },
+      { "text": "report", "pos": "NOUN", "ambiguous": false },
+      { "text": "about", "pos": "ADP", "ambiguous": false },
+      { "text": "the", "pos": "DET", "ambiguous": false },
+      { "text": "effects", "pos": "NOUN", "ambiguous": true },
+      { "text": "of", "pos": "ADP", "ambiguous": false },
+      { "text": "technology", "pos": "NOUN", "ambiguous": false },
+      { "text": "on", "pos": "ADP", "ambiguous": false },
+      { "text": "society", "pos": "NOUN", "ambiguous": true },
+      { "text": ".", "pos": "PUNCT", "ambiguous": false }
+    ],
+    "scores": {
+      "clarity": 7,
+      "controllability": 5,
+      "goal_specificity": 6,
+      "ambiguity": 5,
+      "readability": 8
+    },
+    "reason": {
+      "clarity": "The prompt is moderately clear but lacks specificity on what aspects of society or which technologies to discuss.",
+      "controllability": "The prompt gives little control over the depth, tone, or structure of the report.",
+      "goal_specificity": "The goal is general. It could specify if it wants positive effects, negative effects, or a balanced view.",
+      "ambiguity": "Words like 'effects' and 'society' are broad and could lead to varied interpretations.",
+      "readability": "The prompt is easy to understand even for non-technical users."
+    },
+    "suggestions": [
+      "Specify which areas of society (e.g., education, healthcare, communication) you want to focus on.",
+      "Clarify if you want positive, negative, or neutral effects discussed.",
+      "Define which technologies (e.g., AI, Internet of Things) are most relevant to the report."
+    ],
+    "model_response": "Technology has transformed society in numerous ways, affecting communication, education, healthcare, and business operations. While it has enhanced efficiency and access to information, it has also raised concerns about privacy, mental health, and employment displacement.",
+    "keywords": ["effects", "society"]
+    },
+  
+    {
+    "prompt": "Write a detailed report about the positive and negative effects of AI and Internet of Things on healthcare and education in modern society.",
+    "tokens": [
+      { "text": "Write",        "pos": "VERB",  "ambiguous": false },
+      { "text": "a",            "pos": "DET",   "ambiguous": false },
+      { "text": "detailed",     "pos": "ADJ",   "ambiguous": false },
+      { "text": "report",       "pos": "NOUN",  "ambiguous": false },
+      { "text": "about",        "pos": "ADP",   "ambiguous": false },
+      { "text": "the",          "pos": "DET",   "ambiguous": false },
+      { "text": "positive",     "pos": "ADJ",   "ambiguous": false },
+      { "text": "and",          "pos": "CCONJ", "ambiguous": false },
+      { "text": "negative",     "pos": "ADJ",   "ambiguous": false },
+      { "text": "effects",      "pos": "NOUN",  "ambiguous": true  },
+      { "text": "of",           "pos": "ADP",   "ambiguous": false },
+      { "text": "AI",           "pos": "PROPN", "ambiguous": false },
+      { "text": "and",          "pos": "CCONJ", "ambiguous": false },
+      { "text": "Internet",     "pos": "PROPN", "ambiguous": false },
+      { "text": "of",           "pos": "ADP",   "ambiguous": false },
+      { "text": "Things",       "pos": "PROPN", "ambiguous": false },
+      { "text": "on",           "pos": "ADP",   "ambiguous": false },
+      { "text": "healthcare",   "pos": "NOUN",  "ambiguous": false },
+      { "text": "and",          "pos": "CCONJ", "ambiguous": false },
+      { "text": "education",    "pos": "NOUN",  "ambiguous": false },
+      { "text": "in",           "pos": "ADP",   "ambiguous": false },
+      { "text": "modern",       "pos": "ADJ",   "ambiguous": false },
+      { "text": "society",      "pos": "NOUN",  "ambiguous": true  },
+      { "text": ".",            "pos": "PUNCT", "ambiguous": false }
+    ],
+    "scores": {
+      "clarity": 9,
+      "controllability": 8,
+      "goal_specificity": 9,
+      "ambiguity": 3,
+      "readability": 8
+    },
+    "reason": {
+      "clarity": "Prompt clearly states both positive and negative viewpoints and specific technologies.",
+      "controllability": "Specifies scope (healthcare, education) and discussion direction.",
+      "goal_specificity": "Details exactly which sectors and types of effects to cover.",
+      "ambiguity": "Only broad term is 'society', but context is clear.",
+      "readability": "Complex but still understandable by non-technical readers."
+    },
+    "suggestions": [
+      "Include real-world case studies or statistical data as evidence.",
+      "Compare differences in impact between AI and IoT separately.",
+      "Discuss both short-term and long-term implications."
+    ],
+    "model_response": "In healthcare, AI-driven diagnostic tools have improved accuracy by up to 15%, while IoT-enabled patient monitoring reduced emergency readmissions by 10%. However, concerns about data privacy and clinician over-reliance remain significant. In education, AI tutors personalize learning paths, boosting engagement, but IoT classroom devices can introduce security vulnerabilities. Balancing innovation with robust governance frameworks is essential to maximize benefits and mitigate risks.",
+    "keywords": ["effects", "AI", "Healthcare", "Education"]
+    },
+
+    {
+    "prompt": "Create a 500-word balanced analysis (including an executive summary) of the environmental and economic impacts of renewable energy adoption (solar, wind) for city planners.",
+    "tokens": [
+      { "text": "Create",         "pos": "VERB",  "ambiguous": false },
+      { "text": "a",              "pos": "DET",   "ambiguous": false },
+      { "text": "500-word",       "pos": "NUM",   "ambiguous": false },
+      { "text": "balanced",       "pos": "ADJ",   "ambiguous": false },
+      { "text": "analysis",       "pos": "NOUN",  "ambiguous": false },
+      { "text": "(",              "pos": "PUNCT", "ambiguous": false },
+      { "text": "including",      "pos": "VERB",  "ambiguous": false },
+      { "text": "an",             "pos": "DET",   "ambiguous": false },
+      { "text": "executive",      "pos": "ADJ",   "ambiguous": false },
+      { "text": "summary",        "pos": "NOUN",  "ambiguous": false },
+      { "text": ")",              "pos": "PUNCT", "ambiguous": false },
+      { "text": "of",             "pos": "ADP",   "ambiguous": false },
+      { "text": "the",            "pos": "DET",   "ambiguous": false },
+      { "text": "environmental",  "pos": "ADJ",   "ambiguous": false },
+      { "text": "and",            "pos": "CCONJ", "ambiguous": false },
+      { "text": "economic",       "pos": "ADJ",   "ambiguous": false },
+      { "text": "impacts",        "pos": "NOUN",  "ambiguous": true  },
+      { "text": "of",             "pos": "ADP",   "ambiguous": false },
+      { "text": "renewable",      "pos": "ADJ",   "ambiguous": false },
+      { "text": "energy",         "pos": "NOUN",  "ambiguous": false },
+      { "text": "adoption",       "pos": "NOUN",  "ambiguous": false },
+      { "text": "(",              "pos": "PUNCT", "ambiguous": false },
+      { "text": "solar",          "pos": "NOUN",  "ambiguous": false },
+      { "text": ",",              "pos": "PUNCT", "ambiguous": false },
+      { "text": "wind",           "pos": "NOUN",  "ambiguous": false },
+      { "text": ")",              "pos": "PUNCT", "ambiguous": false },
+      { "text": "for",            "pos": "ADP",   "ambiguous": false },
+      { "text": "city",           "pos": "NOUN",  "ambiguous": false },
+      { "text": "planners",       "pos": "NOUN",  "ambiguous": false },
+      { "text": ".",              "pos": "PUNCT", "ambiguous": false }
+    ],
+    "scores": {
+      "clarity": 9,
+      "controllability": 8,
+      "goal_specificity": 9,
+      "ambiguity": 4,
+      "readability": 8
+    },
+    "reason": {
+      "clarity": "Specifies length, format, and target audience.",
+      "controllability": "Gives exact word count and sections required.",
+      "goal_specificity": "Defines sectors (solar, wind) and stakeholder group.",
+      "ambiguity": "Only 'impacts' remains broad, but context is clear.",
+      "readability": "Clear professional language with parenthetical clarifications."
+    },
+    "suggestions": [
+      "Structure the report with headings: Summary, Environmental Impact, Economic Impact, Recommendations.",
+      "Use data and charts to illustrate key metrics (e.g., CO₂ reduction, cost savings).",
+      "Conclude with actionable steps tailored to urban planning policies."
+    ],
+    "model_response": "Executive Summary: Adopting solar and wind energy can reduce municipal CO₂ emissions by 30% over 10 years while creating 2,000 new green-jobs. Environmental Impacts: Solar installations decrease reliance on fossil fuels but require land-use trade-offs. Wind farms generate clean power but may face community resistance due to noise and visual impact... [剩余 400 字省略]",
+    "keywords": ["impacts", "renewable", "city planners"]
+    },
+    {
+        "prompt": "List healthy breakfast options.",
+        "tokens": [
+          { "text": "List",      "pos": "VERB", "ambiguous": false },
+          { "text": "healthy",   "pos": "ADJ",  "ambiguous": false },
+          { "text": "breakfast", "pos": "NOUN", "ambiguous": true  },
+          { "text": "options",   "pos": "NOUN", "ambiguous": true  },
+          { "text": ".",         "pos": "PUNCT","ambiguous": false }
+        ],
+        "scores": {
+          "clarity": 5,
+          "controllability": 3,
+          "goal_specificity": 4,
+          "ambiguity": 6,
+          "readability": 9
+        },
+        "reason": {
+          "clarity": "The request asks for breakfast options but does not specify quantity or type.",
+          "controllability": "No guidance on dietary restrictions or nutritional focus.",
+          "goal_specificity": "Unclear how many items or what focus is desired.",
+          "ambiguity": "“breakfast” and “options” are too broad.",
+          "readability": "Simple and easy to understand."
+        },
+        "suggestions": [
+          "Specify how many options you want (e.g., 5).",
+          "Indicate any dietary restrictions (e.g., vegan, gluten-free).",
+          "Mention a nutritional focus (e.g., high protein, low carb)."
+        ],
+        "model_response": null,
+        "keywords": ["breakfast", "options"]
+    },
+    {
+        "prompt": "List 5 vegan breakfast options.",
+        "tokens": [
+          { "text": "List",      "pos": "VERB", "ambiguous": false },
+          { "text": "5",         "pos": "NUM",  "ambiguous": false },
+          { "text": "vegan",     "pos": "ADJ",  "ambiguous": false },
+          { "text": "breakfast", "pos": "NOUN", "ambiguous": false },
+          { "text": "options",   "pos": "NOUN", "ambiguous": false },
+          { "text": ".",         "pos": "PUNCT","ambiguous": false }
+        ],
+        "scores": {
+          "clarity": 7,
+          "controllability": 5,
+          "goal_specificity": 7,
+          "ambiguity": 4,
+          "readability": 8
+        },
+        "reason": {
+          "clarity": "Specifies number and vegan diet.",
+          "controllability": "Improved control but lacks nutritional focus.",
+          "goal_specificity": "More specific than before.",
+          "ambiguity": "“options” remains slightly broad.",
+          "readability": "Clear and natural phrasing."
+        },
+        "suggestions": [
+          "Define the nutritional focus (e.g., protein-rich).",
+          "Clarify if you want full recipes or just names.",
+          "Specify whether smoothies count as well."
+        ],
+        "model_response": null,
+        "keywords": ["vegan"]
+    },
+    {
+        "prompt": "Provide 5 protein-rich vegan breakfast ideas with simple recipes.",
+        "tokens": [
+          { "text": "Provide",      "pos": "VERB", "ambiguous": false },
+          { "text": "5",            "pos": "NUM",  "ambiguous": false },
+          { "text": "protein-rich", "pos": "ADJ",  "ambiguous": false },
+          { "text": "vegan",        "pos": "ADJ",  "ambiguous": false },
+          { "text": "breakfast",    "pos": "NOUN", "ambiguous": false },
+          { "text": "ideas",        "pos": "NOUN", "ambiguous": false },
+          { "text": "with",         "pos": "ADP",  "ambiguous": false },
+          { "text": "simple",       "pos": "ADJ",  "ambiguous": false },
+          { "text": "recipes",      "pos": "NOUN", "ambiguous": false },
+          { "text": ".",           "pos": "PUNCT","ambiguous": false }
+        ],
+        "scores": {
+          "clarity": 9,
+          "controllability": 8,
+          "goal_specificity": 9,
+          "ambiguity": 2,
+          "readability": 9
+        },
+        "reason": {
+          "clarity": "Specifies number, diet, nutritional focus, and format.",
+          "controllability": "Fully controllable and specific.",
+          "goal_specificity": "Very detailed requirements.",
+          "ambiguity": "Almost no ambiguity remains.",
+          "readability": "Clear and easy to follow."
+        },
+        "suggestions": [],
+        "model_response": "1. Tofu scramble with spinach: Sauté 200g crumbled tofu and 100g spinach with a pinch of turmeric. 2. Chickpea pancakes: Mix chickpea flour with water and spices, cook like a pancake, top with avocado. 3. Vegan protein smoothie: Blend soy milk, banana, peanut butter, and vegan protein powder. 4. Quinoa porridge: Cook 50g quinoa in almond milk, stir in nuts and berries. 5. Black bean breakfast burrito: Fill a tortilla with black beans, salsa, and tofu scramble.",
+        "keywords": ["protein-rich", "vegan", "recipes"]
+    },
+    {
+        "prompt": "Give time management tips.",
+        "tokens": [
+          { "text": "Give",       "pos": "VERB", "ambiguous": false },
+          { "text": "time",       "pos": "NOUN", "ambiguous": false },
+          { "text": "management", "pos": "NOUN", "ambiguous": false },
+          { "text": "tips",       "pos": "NOUN", "ambiguous": true  },
+          { "text": ".",          "pos": "PUNCT","ambiguous": false }
+        ],
+        "scores": {
+          "clarity": 5,
+          "controllability": 3,
+          "goal_specificity": 4,
+          "ambiguity": 6,
+          "readability": 9
+        },
+        "reason": {
+          "clarity": "Asks for tips but does not specify number or audience.",
+          "controllability": "No guidance on depth or format.",
+          "goal_specificity": "Too vague to act on.",
+          "ambiguity": "“tips” covers a wide range.",
+          "readability": "Simple and clear."
+        },
+        "suggestions": [
+          "Specify how many tips you want (e.g., 3).",
+          "Define the target audience (e.g., remote workers).",
+          "Choose a format (bullet list or paragraph)."
+        ],
+        "model_response": null,
+        "keywords": ["tips"]
+    },
+    {
+        "prompt": "List 3 time management tips for remote workers.",
+        "tokens": [
+          { "text": "List",        "pos": "VERB", "ambiguous": false },
+          { "text": "3",           "pos": "NUM",  "ambiguous": false },
+          { "text": "time",        "pos": "NOUN", "ambiguous": false },
+          { "text": "management",  "pos": "NOUN", "ambiguous": false },
+          { "text": "tips",        "pos": "NOUN", "ambiguous": false },
+          { "text": "for",         "pos": "ADP",  "ambiguous": false },
+          { "text": "remote",      "pos": "ADJ",  "ambiguous": false },
+          { "text": "workers",     "pos": "NOUN", "ambiguous": false },
+          { "text": ".",          "pos": "PUNCT","ambiguous": false }
+        ],
+        "scores": {
+          "clarity": 8,
+          "controllability": 6,
+          "goal_specificity": 7,
+          "ambiguity": 3,
+          "readability": 9
+        },
+        "reason": {
+          "clarity": "Specifies number and audience.",
+          "controllability": "Improved control over content.",
+          "goal_specificity": "More focused than before.",
+          "ambiguity": "Low ambiguity.",
+          "readability": "Straightforward."
+        },
+        "suggestions": [
+          "Provide an example for each tip.",
+          "Mention useful tools or apps.",
+          "Recommend ideal time-block lengths."
+        ],
+        "model_response": null,
+        "keywords": ["remote workers"]
+    },
+    {
+        "prompt": "List 3 time-blocking techniques with examples for remote software developers.",
+        "tokens": [
+          { "text": "List",            "pos": "VERB",  "ambiguous": false },
+          { "text": "3",               "pos": "NUM",   "ambiguous": false },
+          { "text": "time-blocking",   "pos": "NOUN",  "ambiguous": false },
+          { "text": "techniques",      "pos": "NOUN",  "ambiguous": false },
+          { "text": "with",            "pos": "ADP",   "ambiguous": false },
+          { "text": "examples",        "pos": "NOUN",  "ambiguous": false },
+          { "text": "for",             "pos": "ADP",   "ambiguous": false },
+          { "text": "remote",          "pos": "ADJ",   "ambiguous": false },
+          { "text": "software",        "pos": "NOUN",  "ambiguous": false },
+          { "text": "developers",      "pos": "NOUN",  "ambiguous": false },
+          { "text": ".",              "pos": "PUNCT","ambiguous": false }
+        ],
+        "scores": {
+          "clarity": 9,
+          "controllability": 8,
+          "goal_specificity": 9,
+          "ambiguity": 2,
+          "readability": 9
+        },
+        "reason": {
+          "clarity": "Specifies technique, examples, and audience.",
+          "controllability": "Very clear execution path.",
+          "goal_specificity": "Highly focused prompt.",
+          "ambiguity": "Nearly zero ambiguity.",
+          "readability": "Professional and clear."
+        },
+        "suggestions": [],
+        "model_response": "1. Pomodoro method: Work 25 minutes then take a 5-minute break (e.g., debugging module for 25 minutes, stretch for 5). 2. Themed blocks: Reserve 9–11 AM for code reviews and 2–4 PM for writing unit tests. 3. Learning slot: Set aside 30 minutes daily for reading a technical blog or tutorial.",
+        "keywords": ["time-blocking", "developers"]
+    },
+    {
+        "prompt": "Explain photosynthesis.",
+        "tokens": [
+          { "text": "Explain",       "pos": "VERB", "ambiguous": false },
+          { "text": "photosynthesis","pos": "NOUN","ambiguous": true  },
+          { "text": ".",            "pos": "PUNCT","ambiguous": false }
+        ],
+        "scores": {
+          "clarity": 5,
+          "controllability": 3,
+          "goal_specificity": 4,
+          "ambiguity": 6,
+          "readability": 9
+        },
+        "reason": {
+          "clarity": "Asks to explain photosynthesis but does not specify depth or audience.",
+          "controllability": "No guidance on style or detail level.",
+          "goal_specificity": "Too broad to execute precisely.",
+          "ambiguity": "“photosynthesis” encompasses many processes.",
+          "readability": "Simple instruction."
+        },
+        "suggestions": [
+          "Specify the audience (e.g., middle school students).",
+          "Define the required depth (overview or detailed).",
+          "Indicate a word limit (e.g., 100 words)."
+        ],
+        "model_response": null,
+        "keywords": ["photosynthesis"]
+    },
+    {
+        "prompt": "In 100 words for middle school students, explain photosynthesis.",
+        "tokens": [
+          { "text": "In",            "pos": "ADP",   "ambiguous": false },
+          { "text": "100",           "pos": "NUM",   "ambiguous": false },
+          { "text": "words",         "pos": "NOUN",  "ambiguous": false },
+          { "text": "for",           "pos": "ADP",   "ambiguous": false },
+          { "text": "middle",        "pos": "ADJ",   "ambiguous": false },
+          { "text": "school",        "pos": "NOUN",  "ambiguous": false },
+          { "text": "students",      "pos": "NOUN",  "ambiguous": false },
+          { "text": ",",             "pos": "PUNCT","ambiguous": false },
+          { "text": "explain",       "pos": "VERB",  "ambiguous": false },
+          { "text": "photosynthesis", "pos": "NOUN","ambiguous": false },
+          { "text": ".",            "pos": "PUNCT","ambiguous": false }
+        ],
+        "scores": {
+          "clarity": 8,
+          "controllability": 7,
+          "goal_specificity": 8,
+          "ambiguity": 3,
+          "readability": 9
+        },
+        "reason": {
+          "clarity": "Specifies length and audience.",
+          "controllability": "Guides depth of explanation.",
+          "goal_specificity": "Focused on essentials.",
+          "ambiguity": "Low ambiguity.",
+          "readability": "Appropriate for students."
+        },
+        "suggestions": [
+          "Use simple analogies.",
+          "Include one real-world example (e.g., chloroplast function)."
+        ],
+        "model_response": null,
+        "keywords": ["photosynthesis"]
+    },
+    {
+        "prompt": "Write a 100-word overview of photosynthesis for middle school students, using a leaf and sunlight analogy.",
+        "tokens": [
+          { "text": "Write",       "pos": "VERB", "ambiguous": false },
+          { "text": "a",           "pos": "DET",  "ambiguous": false },
+          { "text": "100-word",    "pos": "NUM",  "ambiguous": false },
+          { "text": "overview",    "pos": "NOUN", "ambiguous": false },
+          { "text": "of",          "pos": "ADP",  "ambiguous": false },
+          { "text": "photosynthesis","pos": "NOUN","ambiguous": false },
+          { "text": "for",         "pos": "ADP",  "ambiguous": false },
+          { "text": "middle",      "pos": "ADJ",  "ambiguous": false },
+          { "text": "school",      "pos": "NOUN", "ambiguous": false },
+          { "text": "students",    "pos": "NOUN", "ambiguous": false },
+          { "text": ",",           "pos": "PUNCT","ambiguous": false },
+          { "text": "using",       "pos": "VERB", "ambiguous": false },
+          { "text": "a",           "pos": "DET",  "ambiguous": false },
+          { "text": "leaf",        "pos": "NOUN", "ambiguous": false },
+          { "text": "and",         "pos": "CCONJ","ambiguous": false },
+          { "text": "sunlight",    "pos": "NOUN", "ambiguous": false },
+          { "text": "analogy",     "pos": "NOUN", "ambiguous": false },
+          { "text": ".",          "pos": "PUNCT","ambiguous": false }
+        ],
+        "scores": {
+          "clarity": 9,
+          "controllability": 8,
+          "goal_specificity": 9,
+          "ambiguity": 2,
+          "readability": 9
+        },
+        "reason": {
+          "clarity": "Specifies format, audience, and analogy.",
+          "controllability": "Very clear instructions.",
+          "goal_specificity": "Almost no ambiguity.",
+          "ambiguity": "Very low.",
+          "readability": "Engaging and clear."
+        },
+        "suggestions": [],
+        "model_response": "Imagine a leaf as a tiny kitchen: sunlight is the stove, water and CO₂ are ingredients. Inside each leaf cell, chlorophyll captures sunlight energy to mix water and CO₂, cooking up sugar (food) and releasing oxygen. This process—photosynthesis—feeds the plant and provides the oxygen we breathe!",
+        "keywords": ["photosynthesis", "analogy"]
+    } 
+]
+  

@@ -1,0 +1,26 @@
+/* src/assets/fonts/fonts.css */
+
+@font-face {
+    font-family: 'Palanquin';
+    src: url('./fonts/Palanquin/Palanquin-Regular.ttf') format('truetype');
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: 'Palanquin';
+    src: url('./fonts/Palanquin/Palanquin-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+  }
+  
+  @font-face {
+    font-family: 'PalanquinDark';
+    src: url('./fonts/PalanquinDark/PalanquinDark-Regular.ttf') format('truetype');
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: 'PalanquinDark';
+    src: url('./fonts/PalanquinDark/PalanquinDark-Bold.ttf') format('truetype');
+    font-weight: 700;
+  }
+  
